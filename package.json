@@ -35,6 +35,7 @@
     "link-core": "npm link dist/core && npm link @ngx-gallery/core",
     "link-lightbox": "npm link dist/lightbox && npm link @ngx-gallery/lightbox",
     "link-gallerize": "npm link dist/gallerize && npm link @ngx-gallery/gallerize",
+    "postinstall": "npm run init-build && npm run build-all",
     "publish-all": "node .config/publish.js",
     "version": "node .config/version.js"
   },
